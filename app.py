@@ -218,7 +218,6 @@ app.layout = html.Div([
                 ),
                 dcc.Input(id="n-period", type="number", value="10", style={}),
             ], style={'margin': 'auto', 'width':'80%', 'display': 'flex', 'flex-wrap': 'nowrap', 'justify-content': 'space-between', 'padding': '20px'}),
-            html.Progress(id="progress_bar", style={"width": "80%", 'font-size': '20px', 'margin': 'auto'}),
         ], style={'margin': 'auto', 'width':'50%', 'display': 'flex', 'flex-wrap': 'nowrap', 'justify-content': 'space-around', 'padding': '20px', 'flex-direction': 'column'}),
 
     dcc.Tabs(id="tabs", children=[
